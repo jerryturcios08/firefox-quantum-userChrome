@@ -1,0 +1,27 @@
+/* Firefox userChrome.css */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+toolbarbutton#alltabs-button {
+    -moz-binding: url("userChrome.xml#js");
+}
+
+#statuspanel-label {
+    -moz-appearance: none !important;
+    background-color: rgb(40,40,40) !important;
+    border: 1px solid rgb(20,20,20) !important;
+    color: rgb(140,140,140) !important;
+}
+
+tooltip {
+    -moz-appearance: none !important;
+    background-color: rgb(40,40,40) !important;
+    color: rgb(140,140,140) !important;
+}
+
+/* Menus: hide keyboard shortcuts */
+.menu-accel,
+.menu-iconic-accel,
+.menu-accel-container {
+    display: none !important;
+}
