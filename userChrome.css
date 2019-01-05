@@ -5,7 +5,7 @@
 toolbarbutton#alltabs-button {
     -moz-binding: url("userChrome.xml#js");
 }
-
+/*
 #statuspanel-label {
     -moz-appearance: none !important;
     background-color: rgb(40,40,40) !important;
@@ -24,3 +24,4 @@ tooltip {
 .menu-accel-container {
     display: none !important;
 }
+*/
