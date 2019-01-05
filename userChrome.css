@@ -9,7 +9,7 @@ toolbarbutton#alltabs-button {
 #statuspanel-label {
     -moz-appearance: none !important;
     background-color: rgb(40,40,40) !important;
-    border: 1px solid rgb(20,20,20) !important;
+    border: 0.5px solid rgb(20,20,20) !important;
     color: rgb(140,140,140) !important;
 }
 
@@ -19,7 +19,6 @@ tooltip {
     color: rgb(140,140,140) !important;
 }
 
-/* Menus: hide keyboard shortcuts */
 .menu-accel,
 .menu-iconic-accel,
 .menu-accel-container {
